@@ -196,9 +196,6 @@
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="MFCPocoClient.h" />
     <ClInclude Include="MFCPocoClientDlg.h" />
     <ClInclude Include="SocketConnectorTest.h" />

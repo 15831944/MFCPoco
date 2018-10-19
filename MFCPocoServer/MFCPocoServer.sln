@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCPocoServer", "MFCPocoServer\MFCPocoServer.vcxproj", "{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MFCPocoServer", "MFCPocoServer\MFCPocoServer.vcxproj", "{7BF71B5C-09AB-431B-B006-6A10BBDEF073}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Debug|Win32.ActiveCfg = Debug|Win32
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Debug|Win32.Build.0 = Debug|Win32
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Debug|x64.ActiveCfg = Debug|x64
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Debug|x64.Build.0 = Debug|x64
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Release|Win32.ActiveCfg = Release|Win32
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Release|Win32.Build.0 = Release|Win32
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Release|x64.ActiveCfg = Release|x64
-		{EC5F8CAC-B46B-4256-BFFF-FC03B9EAFDF2}.Release|x64.Build.0 = Release|x64
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Debug|Win32.Build.0 = Debug|Win32
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Debug|x64.ActiveCfg = Debug|x64
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Debug|x64.Build.0 = Debug|x64
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Release|Win32.ActiveCfg = Release|Win32
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Release|Win32.Build.0 = Release|Win32
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Release|x64.ActiveCfg = Release|x64
+		{7BF71B5C-09AB-431B-B006-6A10BBDEF073}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

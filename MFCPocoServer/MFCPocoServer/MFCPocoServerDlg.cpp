@@ -339,9 +339,21 @@ int MFCPocoServerDlg::OnTcpServerMessage(char *buffer, int len)
 	//TRACE("OnServerMessage\r\n");
 	//stringstream ssbuf(buffer);
 	//TRACE("接收到数据(%d):%s\r\n", len, ssbuf.str().c_str());
-	//CString message(buffer);
-	//ShowEditMessage(message);
-	OnReceiveData((unsigned char *)buffer, 10);
+
+	string sbuf(buffer);
+	TRACE("接收到数据(%d):%s\r\n", len, sbuf.c_str());
+
+
+	char *pdata = new char[len+1];
+	strncpy(pdata, buffer,len);
+	pdata[len - 1] = '\0';
+
+	CString message(pdata);
+	ShowEditMessage(message);
+	free(pdata);
+
+	//接收组包处理
+	//OnReceiveData((unsigned char *)buffer, 10);
 	return len;
 }
 
